@@ -26,3 +26,10 @@ The dataset contains **42 product listings** with the following key attributes:
 9. What is the total potential revenue (actual_price × rating_count) by category? 
 10. What is the number of unique products per price range bucket (e.g., <₹200, 
 ₹200–₹500, >₹500)? 
+
+## Data cleaning 
+Convert "actual_price" and "rating" columns to numeric types.
+Convert "discount_percentage" from decimal to percentage (multiply by 100).
+Handle missing values in "rating_count" by filling or removing.
+Extract the primary category from the "category" column for easier grouping (taking the first category before the "|").
+Check for any other inconsistencies or necessary conversions.
