@@ -13,6 +13,13 @@ The dataset contains **42 product listings** with the following key attributes:
 2. **Smart TVs** (OnePlus, Samsung, LG, Acer, MI)
 3. **Networking Devices** (WiFi adapters)
 
+## Data cleaning 
+1. Convert "actual_price" and "rating" columns to numeric types.
+2. Convert "discount_percentage" from decimal to percentage (multiply by 100).
+3. Handle missing values in "rating_count" by filling or removing.
+4. Extract the primary category from the "category" column for easier grouping.
+5. Check for any other inconsistencies or necessary conversions.
+
 ## Analysis Task
 1. What is the average discount percentage by product category? 
 2. How many products are listed under each category? 
@@ -27,9 +34,3 @@ The dataset contains **42 product listings** with the following key attributes:
 10. What is the number of unique products per price range bucket (e.g., <₹200, 
 ₹200–₹500, >₹500)? 
 
-## Data cleaning 
-Convert "actual_price" and "rating" columns to numeric types.
-Convert "discount_percentage" from decimal to percentage (multiply by 100).
-Handle missing values in "rating_count" by filling or removing.
-Extract the primary category from the "category" column for easier grouping (taking the first category before the "|").
-Check for any other inconsistencies or necessary conversions.
