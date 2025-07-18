@@ -49,20 +49,15 @@ The dataset contains **42 product listings** with the following key attributes:
    - 602 products
 8. What is the distribution of product ratings (e.g., how many products are rated 3.0, 
 4.0, etc.)?
-   - 3.9
-   - 4.0
-   - 4.1
-   - 4.2
-   - 4.3
-   - 4.4
-   - 4.5
+   - 3.9 - 4.5
 9. What is the total potential revenue (actual_price × rating_count) by category?
    - Computers & Accessories: ₹393,819,912
    - Electronics: ₹3,190,311,620
    - Networking Devices: ₹39,017,805
 10. What is the number of unique products per price range bucket (e.g., <₹200, 
 ₹200–₹500, >₹500)?
-11. How does the rating relate to the level of discount? 
+   - 45% of products
+12. How does the rating relate to the level of discount? 
    - Generally, higher-rated products tend to have moderate discounts (40-60%), while lower-rated products have either very high or very low discounts.
 12. How many products have fewer than 1,000 reviews? 
    - 214 products 
