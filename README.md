@@ -1,4 +1,4 @@
-# Amazon Product Review 
+# Amazon Product Review Analysis 
 This project will analyze the Amazon product dataset containing information about various electronics products, primarily focusing on cables and accessories. The dataset includes product details, pricing, ratings, reviews, and customer feedback.
 
 ## **Dataset Description**
@@ -65,7 +65,7 @@ The dataset contains **42 product listings** with the following key attributes:
 11. How does the rating relate to the level of discount? 
    - Generally, higher-rated products tend to have moderate discounts (40-60%), while lower-rated products have either very high or very low discounts.
 12. How many products have fewer than 1,000 reviews? 
-
+   - 214 products 
 13. Which categories have products with the highest discounts? 
     - Computers & Accessories
     - Electronics
