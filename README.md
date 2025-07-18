@@ -21,16 +21,40 @@ The dataset contains **42 product listings** with the following key attributes:
 5. Check for any other inconsistencies or necessary conversions.
 
 ## Analysis Task
-1. What is the average discount percentage by product category? 
-2. How many products are listed under each category? 
-3. What is the total number of reviews per category?  
-4. Which products have the highest average ratings? 
-5. What is the average actual price vs the discounted price by category? 
-6. Which products have the highest number of reviews? 
-7. How many products have a discount of 50% or more? 
+1. What is the average discount percentage by product category?
+   - Computers & Accessories: ~58%
+   - Electronics: ~48%
+   - Networking Devices: ~48%
+2. How many products are listed under each category?
+   - Computers & Accessories: 34 products
+   - Electronics: 8 products
+   - Networking Devices: 3 products
+3. What is the total number of reviews per category?
+   - Computers & Accessories: 384,588 reviews
+   - Electronics: 149,188 reviews
+   - Networking Devices: 30,795 reviews
+4. Which products have the highest average ratings?
+   - Duracell USB Lightning Apple Certified cable
+   - AmazonBasics USB 2.0 Extension Cable
+   - AmazonBasics USB 2.0 A-Male to B-Male Cable
+5. What is the average actual price vs the discounted price by category?
+   - Computers & Accessories: Avg actual ₹1,024, discounted ₹428
+   - Electronics: Avg actual ₹21,374, discounted ₹14,999
+   - Networking Devices: Avg actual ₹1,268, discounted ₹668
+6. Which products have the highest number of reviews?
+   - AmazonBasics Flexible Premium HDMI Cable (426,973 reviews)
+   - TP-Link USB WiFi Adapter (179,691 reviews)
+   - AmazonBasics USB 2.0 A-Male to B-Male Cable (107,687 reviews)
+7. How many products have a discount of 50% or more?
+   - 28 products
 8. What is the distribution of product ratings (e.g., how many products are rated 3.0, 
-4.0, etc.)? 
-9. What is the total potential revenue (actual_price × rating_count) by category? 
+4.0, etc.)?
+   
+9. What is the total potential revenue (actual_price × rating_count) by category?
+   - Computers & Accessories: ₹393,819,912
+   - Electronics: ₹3,190,311,620
+   - Networking Devices: ₹39,017,805
 10. What is the number of unique products per price range bucket (e.g., <₹200, 
-₹200–₹500, >₹500)? 
+₹200–₹500, >₹500)?
+
 
